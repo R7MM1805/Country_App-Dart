@@ -1,0 +1,5 @@
+{
+    "ExternalConnections": {
+        "Country_API" : "https://restcountries.com"
+    }
+}

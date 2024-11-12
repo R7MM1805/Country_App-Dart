@@ -1,5 +1,8 @@
-import 'package:country_app/country_app.dart' as country_app;
+import 'package:country_app/DTO/country_dto.dart';
+import 'package:country_app/service/country_service.dart';
 
-void main(List<String> arguments) {
-  print('Hello world: ${country_app.calculate()}!');
+void main(List<String> arguments) async {
+  CountryService countryRepository = CountryService();
+  CountryDTO countryDTO = await countryRepository.getCountryByCode('col');
+  print(countryDTO);
 }
