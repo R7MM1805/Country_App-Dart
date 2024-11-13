@@ -1,5 +1,5 @@
-import 'package:country_app/Infrastructure/Connector/service_connector.dart';
-import 'package:country_app/Infrastructure/ExternalServices/Country/Response/country_ext_response.dart';
+import 'package:country_app/infrastructure/connector/service_connector.dart';
+import 'package:country_app/infrastructure/external_services/country/response/country_ext_response.dart';
 import 'package:country_app/Utils/util.dart';
 
 class CountryExtService {

@@ -1,7 +1,4 @@
-import 'package:country_app/DTO/currency_dto.dart';
-import 'package:country_app/DTO/general_dto.dart';
-import 'package:country_app/DTO/location_dto.dart';
-import 'package:country_app/DTO/region_dto.dart';
+import 'package:country_app/global/global_dto.dart';
 
 class CountryDTO extends GeneralDTO {
   List<CountryDataDTO>? data;
