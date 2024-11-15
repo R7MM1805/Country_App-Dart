@@ -1,6 +1,6 @@
+import 'package:country_app/Infrastructure/external_services/country/response/country_ext_response.dart';
+import 'package:country_app/Infrastructure/external_services/country/service/country_ext_service.dart';
 import 'package:country_app/global/global_dto.dart' as dto;
-import 'package:country_app/infrastructure/external_services/country/response/country_ext_response.dart';
-import 'package:country_app/infrastructure/external_services/country/service/country_ext_service.dart';
 
 class CountryService {
   Future<dto.CountryDTO> getCountryByCode(String code) async {
